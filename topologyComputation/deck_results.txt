@@ -1,0 +1,43 @@
+S0
+[('alpha(x)',), ('beta(x)',), ('tau(4,x)',), ('tau(5,x)',), ('tau(6,x)',), ('tau(7,x)',)]
+('alpha(x)',)
+
+S1
+[('beta(x)',), ('tau(4,x)',), ('tau(5,x)',), ('tau(6,x)',), ('tau(7,x)',), ('alpha(x)', 'tau(3,x)')]
+('alpha(x)', 'tau(3,x)')
+
+S2
+[('beta(x)',), ('tau(4,x)',), ('tau(5,x)',), ('tau(6,x)',), ('tau(7,x)',), ('alpha(x)', 'tau(1,x)')]
+('alpha(x)', 'tau(1,x)')
+
+S3
+[('beta(x)',), ('tau(4,x)',), ('tau(5,x)',), ('tau(6,x)',), ('tau(7,x)',), ('alpha(x)', 'tau(1,x)', 'tau(3,x)')]
+('alpha(x)', 'tau(1,x)', 'tau(3,x)')
+
+S4
+[('alpha(x)',), ('beta(x)',), ('tau(0,x)',), ('tau(1,x)',), ('tau(2,x)',), ('tau(3,x)',)]
+('beta(x)',)
+
+S5
+[('alpha(x)',), ('tau(0,x)',), ('tau(1,x)',), ('tau(2,x)',), ('tau(3,x)',), ('beta(x)', 'tau(7,x)')]
+('beta(x)', 'tau(7,x)')
+
+S6
+[('alpha(x)',), ('tau(0,x)',), ('tau(1,x)',), ('tau(2,x)',), ('tau(3,x)',), ('beta(x)', 'tau(4,x)')]
+('beta(x)', 'tau(4,x)')
+
+S7
+[('alpha(x)',), ('tau(0,x)',), ('tau(1,x)',), ('tau(2,x)',), ('tau(3,x)',), ('beta(x)', 'tau(4,x)', 'tau(7,x)')]
+('beta(x)', 'tau(4,x)', 'tau(7,x)')
+
+S8
+[('gamma(x)',), ('tau(2,x)',), ('tau(3,x)',), ('tau(6,x)',), ('tau(7,x)',), ('alpha(x)', 'tau(2,x)', 'alpha(x)'), ('alpha(x)', 'tau(3,x)', 'alpha(x)'), ('beta(x)', 'tau(6,x)', 'beta(x)'), ('beta(x)', 'tau(7,x)', 'beta(x)')]
+
+S9
+[('tau(2,x)',), ('tau(3,x)',), ('tau(6,x)',), ('tau(7,x)',), ('gamma(x)', 'tau(5,x)'), ('alpha(x)', 'tau(2,x)', 'alpha(x)'), ('alpha(x)', 'tau(3,x)', 'alpha(x)'), ('beta(x)', 'tau(6,x)', 'beta(x)'), ('beta(x)', 'tau(7,x)', 'beta(x)')]
+
+S10
+[('delta(x)',), ('tau(1,x)',), ('tau(3,x)',), ('tau(5,x)',), ('tau(7,x)',), ('alpha(x)', 'tau(1,x)', 'alpha(x)'), ('alpha(x)', 'tau(3,x)', 'alpha(x)'), ('beta(x)', 'tau(5,x)', 'beta(x)'), ('beta(x)', 'tau(7,x)', 'beta(x)')]
+
+S11
+[('tau(1,x)',), ('tau(3,x)',), ('tau(5,x)',), ('tau(7,x)',), ('delta(x)', 'tau(4,x)'), ('alpha(x)', 'tau(1,x)', 'alpha(x)'), ('alpha(x)', 'tau(3,x)', 'alpha(x)'), ('beta(x)', 'tau(5,x)', 'beta(x)'), ('beta(x)', 'tau(7,x)', 'beta(x)')]
